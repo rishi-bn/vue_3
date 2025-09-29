@@ -1,0 +1,152 @@
+/* FILE: app.css */
+
+/* ==========================================================================
+   Global HTML & Body Styles
+   ========================================================================== */
+html {
+  overflow-y: auto !important; /* Changed from hidden to auto for better accessibility */
+}
+
+/* ==========================================================================
+   VIRTUELE Theme Colors & Utility Classes
+   ========================================================================== */
+/* In Vuetify 3, theme colors are best set in the plugin config.
+   These classes ensure your custom color names work everywhere. */
+.bg-f5 { background-color: #f5f5f5 !important; }
+.bg-ff { background-color: #ffffff !important; }
+
+.primary-text-1 { color: rgb(var(--v-theme-primary)); }
+.primary-text-2 { color: #606a81; }
+.primary-text-3 { color: #FFFFFF; }
+
+.font-400 { font-weight: 400 !important; }
+.c-pointer { cursor: pointer; }
+.pointer-events-none { pointer-events: none; }
+.text-break { word-break: break-all; }
+.lh-18 { line-height: 18px; }
+.lh-21 { line-height: 21px; }
+
+.b-all { border: 1px solid #d9d9d9; }
+.b-r { border-right: 1px solid #d9d9d9; }
+.b-b { border-bottom: 1px solid #d9d9d9; }
+
+/* ==========================================================================
+   Vuetify 3 Component Overrides
+   ========================================================================== */
+
+/* --- General Overrides --- */
+.v-application .text-subtitle-2,
+.v-application .text-body-2 {
+  font-size: 12px !important;
+}
+
+.v-btn.v-size--small { /* Kept for legacy compatibility if needed */
+  height: 28px !important;
+}
+
+.v-list-item {
+  min-height: 32px !important;
+}
+
+.v-chip.v-size--small {
+  height: 22px;
+}
+
+/* --- Form Input Overrides (`custom-form-input` container class) --- */
+.custom-form-input .v-input,
+.custom-form-input .v-text-field,
+.custom-form-input .v-autocomplete {
+  font-size: 13px;
+}
+
+.custom-form-input .v-field__outline {
+  --v-field-border-color: #d9d9d9;
+}
+
+.custom-form-input .v-label {
+  font-size: 12px;
+  color: #606a81;
+}
+
+/* --- Search Bar Specific Styles --- */
+.search-with-btn .v-field {
+  min-height: 34px !important;
+  padding-inline-start: 8px;
+  padding-inline-end: 8px;
+}
+
+.search-with-btn .v-field__outline {
+  --v-field-border-width: 0;
+  --v-field-border-opacity: 1;
+  border-bottom: 1px solid #d9d9d9 !important;
+  border-radius: 0;
+}
+.search-with-btn .v-field--variant-outlined.v-field--focused .v-field__outline {
+    --v-field-border-width: 1px;
+}
+
+
+/* --- Custom Button Variants --- */
+.v-btn.cancel {
+  color: rgb(var(--v-theme-primary));
+  border: 1px solid rgb(var(--v-theme-primary));
+  background-color: #fff !important;
+}
+
+.v-btn.normal {
+  color: #606a81;
+  border: 1px solid #d9d9d9;
+  background-color: #f5f5f5;
+  box-shadow: none;
+}
+
+/* --- Custom Status Colors & Boxes --- */
+.status-green { border: 1px solid #25b92a !important; background-color: #cfffcf !important; }
+.status-green-text { color: #25b92a !important; }
+.status-process { border: 1px solid #2583fd !important; background-color: #f3f6ff !important; }
+.status-process-text { color: #2583fd !important; }
+
+.box-open { color: #2583fd !important; }
+.box-closed { color: #00a400 !important; }
+.box-overdue { color: #f43434 !important; }
+.box-onhold { color: #6865be !important; }
+/* ... and all other box colors ... */
+
+/* --- TABS Overrides --- */
+.v-tab {
+  min-width: 70px !important;
+  padding: 0 10px !important;
+}
+
+/* ==========================================================================
+   Kendo UI Overrides (Largely Unchanged)
+   ========================================================================== */
+.k-content { width: 100%; }
+.k-toolbar { background-color: #fff !important; padding: 5px !important; }
+.k-pager-numbers .k-link.k-selected {
+  border-color: #2583fd !important;
+  color: #fff;
+  background-color: #2583fd !important;
+}
+/* ... all other Kendo UI styles from your original file ... */
+.k-treeview .k-in:hover, .k-treeview .k-in.k-state-hover, .k-treeview .k-in.k-state-selected {
+  border-color: transparent !important;
+  color: #606a81 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.k-sprite {
+  display: none !important;
+}
+.pos-center-max {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: max-content;
+}
+.v-application .v-input .v-field{
+  padding: 0 8px !important;
+}

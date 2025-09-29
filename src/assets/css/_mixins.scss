@@ -1,0 +1,29 @@
+@use "sass:math";
+@use "./variables" as *;
+
+@function calculateRem($size) {
+  $remSize: math.div($size, 16px);
+  @return $remSize * 1rem;
+}
+
+@mixin line--height($size){line-height: $size !important;line-height: calculateRem($size) !important;}
+@mixin font--size($size){font-size: $size;font-size: calculateRem($size);}
+
+
+
+
+
+@mixin transition--linear{transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-ms-transition:all .3s linear;-o-transition:all .3s linear;}
+@mixin set--scale{transform:scale($one) !important;-webkit-transform:scale($one) !important;-moz-transform:scale($one) !important;-ms-transform:scale($one) !important;-o-transform:scale($one) !important;}
+@mixin margin--auto {margin: { left: auto;right: auto;top: auto;bottom: auto;}}
+@mixin margin-lr-auto {margin: {left: auto;right: auto;}}
+@mixin box--width($width){width: $width;}
+@mixin box--max--width($width){max-width: $width;}
+@mixin box--height($height){height: $height;}
+@mixin box--dimension($width, $height: $width, $wtype, $htype) 
+    {@if($wtype == mw){min-width: $width;}
+    @else{width: $width;}
+    @if($htype == mh){min-height: $height;}
+    @else{height: $height;}}
+@mixin pos--center(){position: $pos-abs;top: $zero;right: $zero;bottom: $zero;left: $zero;}
+@mixin text--shorten{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}

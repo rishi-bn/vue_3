@@ -1,0 +1,354 @@
+{
+    "UserRoles": [
+      {
+        "value": "Guest",
+        "key": 1
+      },
+      {
+        "value": "User",
+        "key": 2
+      },
+      {
+        "value": "Manager",
+        "key": 3
+      },
+      {
+        "value": "Account Admin",
+        "key": 4
+      },
+      {
+        "value": "Virtuele Admin",
+        "key": 5
+      }
+    ],
+    "CompanyTypes": [
+      {
+        "companytypename": "Architect",
+        "companytypeid": 1
+      },
+      {
+        "companytypename": "Decking Supplier",
+        "companytypeid": 2
+      },
+      {
+        "companytypename": "Engineer",
+        "companytypeid": 3
+      },
+      {
+        "companytypename": "Erector",
+        "companytypeid": 4
+      },
+      {
+        "companytypename": "Fabricator",
+        "companytypeid": 5
+      },
+      {
+        "companytypename": "General Contractor",
+        "companytypeid": 6
+      },
+      {
+        "companytypename": "Grating Supplier",
+        "companytypeid": 7
+      },
+      {
+        "companytypename": "Joist Supplier",
+        "companytypeid": 8
+      },
+      {
+        "companytypename": "Owner",
+        "companytypeid": 9
+      },
+      {
+        "companytypename": "Steel Detailer",
+        "companytypeid": 10
+      },
+      {
+        "companytypename": "Structural Engineer",
+        "companytypeid": 11
+      },
+      {
+        "companytypename": "Other",
+        "companytypeid": 12
+      }
+    ],
+    "NoOfEmployees": [
+      {
+        "value": "0 - 50",
+        "key": 1
+      },
+      {
+        "value": "50 - 100",
+        "key": 2
+      },
+      {
+        "value": "100 - 250",
+        "key": 3
+      },
+      {
+        "value": "250 - 500",
+        "key": 4
+      },
+      {
+        "value": "500 - 1000",
+        "key": 5
+      },
+      {
+        "value": "above 1000",
+        "key": 6
+      }
+    ],
+    "States": [
+      {
+        "usstate": "AK",
+        "usstatename": "Alaska"
+      },
+      {
+        "usstate": "AL",
+        "usstatename": "Alabama"
+      },
+      {
+        "usstate": "AR",
+        "usstatename": "Arkansas"
+      },
+      {
+        "usstate": "AZ",
+        "usstatename": "Arizona"
+      },
+      {
+        "usstate": "CA",
+        "usstatename": "California"
+      },
+      {
+        "usstate": "CO",
+        "usstatename": "Colorado"
+      },
+      {
+        "usstate": "CT",
+        "usstatename": "Connecticut"
+      },
+      {
+        "usstate": "DE",
+        "usstatename": "Delaware"
+      },
+      {
+        "usstate": "FL",
+        "usstatename": "Florida"
+      },
+      {
+        "usstate": "GA",
+        "usstatename": "Georgia"
+      },
+      {
+        "usstate": "HI",
+        "usstatename": "Hawaii"
+      },
+      {
+        "usstate": "IA",
+        "usstatename": "Iowa"
+      },
+      {
+        "usstate": "countryId",
+        "usstatename": "Idaho"
+      },
+      {
+        "usstate": "IL",
+        "usstatename": "Illinois"
+      },
+      {
+        "usstate": "IN",
+        "usstatename": "Indiana"
+      },
+      {
+        "usstate": "KS",
+        "usstatename": "Kansas"
+      },
+      {
+        "usstate": "KY",
+        "usstatename": "Kentucky"
+      },
+      {
+        "usstate": "LA",
+        "usstatename": "Louisiana"
+      },
+      {
+        "usstate": "MA",
+        "usstatename": "Massachusetts"
+      },
+      {
+        "usstate": "MD",
+        "usstatename": "Maryland"
+      },
+      {
+        "usstate": "ME",
+        "usstatename": "Maine"
+      },
+      {
+        "usstate": "MI",
+        "usstatename": "Michigan"
+      },
+      {
+        "usstate": "MN",
+        "usstatename": "Minnesota"
+      },
+      {
+        "usstate": "MO",
+        "usstatename": "Missouri"
+      },
+      {
+        "usstate": "MS",
+        "usstatename": "Mississippi"
+      },
+      {
+        "usstate": "MT",
+        "usstatename": "Montana"
+      },
+      {
+        "usstate": "NC",
+        "usstatename": "North Carolina"
+      },
+      {
+        "usstate": "ND",
+        "usstatename": "North Dakota"
+      },
+      {
+        "usstate": "NE",
+        "usstatename": "Nebraska"
+      },
+      {
+        "usstate": "NH",
+        "usstatename": "New Hampshire"
+      },
+      {
+        "usstate": "NJ",
+        "usstatename": "New Jersey"
+      },
+      {
+        "usstate": "NM",
+        "usstatename": "New Mexico"
+      },
+      {
+        "usstate": "NV",
+        "usstatename": "Nevada"
+      },
+      {
+        "usstate": "NY",
+        "usstatename": "New York"
+      },
+      {
+        "usstate": "OH",
+        "usstatename": "Ohio"
+      },
+      {
+        "usstate": "OK",
+        "usstatename": "Oklahoma"
+      },
+      {
+        "usstate": "OR",
+        "usstatename": "Oregon"
+      },
+      {
+        "usstate": "PA",
+        "usstatename": "Pennsylvania"
+      },
+      {
+        "usstate": "RI",
+        "usstatename": "Rhode Island"
+      },
+      {
+        "usstate": "SC",
+        "usstatename": "South Carolina"
+      },
+      {
+        "usstate": "SD",
+        "usstatename": "South Dakota"
+      },
+      {
+        "usstate": "TN",
+        "usstatename": "Tennessee"
+      },
+      {
+        "usstate": "TX",
+        "usstatename": "Texas"
+      },
+      {
+        "usstate": "UT",
+        "usstatename": "Utah"
+      },
+      {
+        "usstate": "VA",
+        "usstatename": "Virginia"
+      },
+      {
+        "usstate": "VT",
+        "usstatename": "Vermont"
+      },
+      {
+        "usstate": "WA",
+        "usstatename": "Washington"
+      },
+      {
+        "usstate": "WI",
+        "usstatename": "Wisconsin"
+      },
+      {
+        "usstate": "WV",
+        "usstatename": "West Virginia"
+      },
+      {
+        "usstate": "WY",
+        "usstatename": "Wyoming"
+      }
+    ],
+    "CompanyRoles": [
+      {
+        "roleid": 1,
+        "rolename": "Manager"
+      },
+      {
+        "roleid": 3,
+        "rolename": "User"
+      },
+      {
+        "roleid": 8,
+        "rolename": "External User"
+      },
+      {
+        "roleid": 11,
+        "rolename": "Company Admin"
+      },
+      {
+        "roleid": 12,
+        "rolename": "Virtuele Admin"
+      }
+    ],
+    "Country": [
+      {
+        "countryCode": "+91",
+        "countryName": "India",
+        "countryId": 1
+      },
+      {
+        "countryCode": "+1",
+        "countryName": "United States",
+        "countryId": 2
+      }
+    ],
+    "JobTitle": [
+      {
+        "jobtitlename": "JT2",
+        "jobtitleid": 2
+      },
+      {
+        "jobtitlename": "JT20",
+        "jobtitleid": 1
+      },
+      {
+        "jobtitlename": "JT45",
+        "jobtitleid": 3
+      },
+      {
+        "jobtitlename": "JT465",
+        "jobtitleid": 4
+      }
+    ]
+  }

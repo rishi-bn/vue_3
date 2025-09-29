@@ -1,0 +1,76 @@
+/* FILE: viewer.css */
+
+.forge-spinner {
+  display: none !important;
+  opacity: 0;
+}
+
+.forgeViewerCls, .forgeViewerDrawingCls, .forgeViewerModelCls {
+  position: relative;
+  height: 720px;
+}
+
+.forgeViewerCls .lmv-markup-gui-toolbar,
+.forgeViewerModelCls .lmv-markup-gui-toolbar {
+  display: none;
+}
+
+/* --- CONTEXT MENU STYLES --- */
+#contextDirectoryDrawing,
+#contextRfiDrawing {
+  width: 115px;
+  display: none;
+  border-bottom: none;
+  position: absolute;
+  z-index: 10;
+}
+
+#contextDirectoryDrawing ul,
+#contextRfiDrawing ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Added for reset */
+  border: 1px solid #959395;
+  border-radius: 5px;
+  padding: 1px 4px;
+  background: #f1eff1;
+}
+
+#contextDirectoryDrawing ul li,
+#contextRfiDrawing ul li {
+  background: #f1eff1;
+  border-bottom: 1px solid #000;
+  padding: 2px 0;
+  cursor: pointer;
+  color: #6f6b6b;
+}
+
+#contextDirectoryDrawing ul li:last-child,
+#contextRfiDrawing ul li:last-child {
+  border-bottom: none; /* Cleaner look */
+}
+
+#contextDirectoryDrawing .contextMenuItemText,
+#contextRfiDrawing .contextMenuItemText {
+  background: #f1eff1;
+  color: #000;
+  padding: 0 3px;
+  font-size: 15px;
+  border-radius: 5px;
+  display: block; /* Ensures hover works correctly */
+}
+
+#contextDirectoryDrawing ul li .contextMenuItemText:hover,
+#contextDirectoryDrawing ul li .contextMenuItemText.active,
+#contextRfiDrawing ul li .contextMenuItemText:hover,
+#contextRfiDrawing ul li .contextMenuItemText.active {
+  background: #0422a4;
+  color: #fff;
+}
+
+#contextDirectoryDrawing ul li.disable,
+#contextRfiDrawing ul li.disable {
+  background: #b9b3b3;
+  color: #000;
+  pointer-events: none;
+}
